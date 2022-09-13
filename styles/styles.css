@@ -1,0 +1,412 @@
+* body {
+    margin: 0;
+    padding: 0;
+}
+
+/*logo*/
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo span {
+    color: red;
+    font-size: 20px;
+}
+
+/*menu*/
+
+.nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.menunavegación {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu-navegación span {
+    margin: 15px;
+    font-weight: bold;
+}
+
+.menunavegación .LogIn {
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+.menunavegación .signup {
+    padding: 12px;
+    background-color: #EFEFEF;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+.nav .menu-burger {
+    display: none;
+}
+
+/* Portada */
+
+.portadaprincipal {
+    position: relative;
+    overflow: hidden;
+}
+
+.tarjetas {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.tarjetas .columna {
+    padding: 5px;
+    width: 20%;
+    position: absolute;
+}
+
+.tarjetas .columna .cardimage {
+    
+    margin-top: 2px;
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.tarjetas .columna .img1 {
+    background-image: url(https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos.jpg);
+}
+
+.tarjetas .columna .img2 {
+    background-image: url(https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg);
+}
+
+.tarjetas .columna .img3 {
+    background-image: url(https://i.pinimg.com/564x/e1/af/fa/e1affaf09f9ea93ec9fec2f5597d24a6.jpg)
+}
+
+.tarjetas .columna .img4 {
+    background-image: url(https://st.depositphotos.com/3049830/4865/i/600/depositphotos_48658439-stock-photo-deep-forest-waterfall-in-kanchanaburi.jpg)
+}
+
+.tarjetas .columna .img5 {
+    background-image: url(https://i.pinimg.com/236x/b4/34/2a/b4342aceac6bd80f0d08b8aedcdcf380.jpg)
+}
+
+.tarjetas .columna .img6 {
+    background-image: url(https://static.wixstatic.com/media/df9fb8_a598c6d40bb143ec9bfaa56b67fcadcf~mv2.jpg/v1/fill/w_1000,h_563,al_c,q_90/df9fb8_a598c6d40bb143ec9bfaa56b67fcadcf~mv2.jpg)
+}
+
+.tarjetas .columna .img7 {
+    background-image: url(https://static5.depositphotos.com/1013513/502/i/450/depositphotos_5021225-stock-photo-beautiful-morning-at-spring-before.jpg)
+}
+
+.tarjetas .columna .img8 {
+    background-image: url(https://i.pinimg.com/736x/8d/eb/10/8deb1026c9fc2223dc29e8e207359594.jpg)
+}
+
+.columna1 {
+    top: 300px;
+    left: -5px;
+}
+
+.columna2 {
+    top: 430px;
+    left: 15%;
+}
+
+.columna3 {
+    top: 480px;
+    left: 35%;
+}
+
+.columna4 {
+    top: 480px;
+    left: 55%;
+}
+
+.columna5 {
+    top: 430px;
+    left: 75%;
+}
+
+.columna6 {
+    top: 300px;
+    left: 95%;
+}
+
+.titulo {
+    position: absolute;
+    top: 150px;
+    left: 28%;
+}
+
+.titulo h1 {
+    font-size: 50px;
+
+}
+
+.button {
+    position: absolute;
+    bottom: 300px;
+    margin: 10px;
+    padding: 10px;
+    left: 50%;
+}
+
+.button img {
+width: 70px;
+}
+
+/*Segunda seccion*/
+
+.seccionideas {
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seccionideas .imgContainer {
+    margin-top: 50px;
+    width: 40%;
+    position: relative;
+}
+
+.seccionideas .imgContainer img {
+    width: 80%;
+    height: 380px;
+}
+
+.seccionideas .imgContainer .img1{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.seccionideas .imgContainer .img2{
+    width: 298px;
+    height: 416px;
+    position: absolute;
+    top: 80px;
+    right: 120px;
+}
+
+.seccionideas .imgContainer .img3{
+    width: 204px;
+    height: 285px;
+    position: absolute;
+    top: 150px;
+    right: 280px;
+}
+
+.seccionideas .imgContainer .img4{
+    width: 204px;
+    height: 285px;
+    position: absolute;
+    top: 280px;
+    right: 50px;
+}
+
+.seccionideas .textcontainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccionideas .textcontainer h1 {
+    color: red;
+    font-size: 70px;
+}
+
+.seccionideas .textcontainer p {
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+
+.seccionideas .textcontainer button {
+    margin-top: 55px;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+/* Medias Query */
+@media screen and (max-width: 850px) {
+    .tarjetas {
+        width: 100%;
+        height: 48vh;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+.menunavegación {
+    display: none  
+}
+
+.nav .menu-burger {
+    margin-right: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav .menu-burger img {
+    width: 40px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+    .tarjetas {
+        height: 75vh;
+    }
+    .tarjetas .columna {
+        width: 25%;
+        position: absolute;
+    }
+}
+
+/*/* MEdias Queries */
+ @media screen and (max-width: 850px) {
+    .cards {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+    } 
+
+
+    .column1{
+        left: -0.5em;
+    }
+    
+    .column2{
+        left: .55em;
+    }
+    .column3{
+        left:1.6em
+    }
+.column4{
+    bottom: -100px;
+    left: 2.66em;
+}
+.column5{
+    top: 430px;
+    left: 3.75em;
+}
+.column6{
+    top: 300px;
+    left: 4.8em
+}
+ }
+
+ @media screen and (max-width: 550px) {
+    
+ .nav-menu{
+   display: none;
+ }
+
+ .nav .menu-burger {
+    margin-right: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+ }
+ .nav .menu-burger img{
+    width: 40px;
+ }
+
+ .seccion-ideas .textContainer {
+    width: 100%;
+}
+
+.imgContainer{
+    width: 100%;
+}
+
+
+.seccion-ideas .imgContainer .img1{
+    width: 87px;
+    height: 101px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.seccion-ideas .imgContainer .img2{
+    width: 143px;
+    height: 223px;
+    position: absolute;
+    top: 80px;
+    right: 120px;
+}
+
+.seccion-ideas .imgContainer .img3{
+    width: 204px;
+    height: 285px;
+    position: absolute;
+    top: 150px;
+    right: 280px;
+}
+
+.seccion-ideas .imgContainer .img4{
+    width: 204px;
+    height: 285px;
+    position: absolute;
+    top: 280px;
+    right: 50px;
+}
+
+
+
+
+ }
+
+ @media screen and (max-width: 415px) {
+    .cards {
+        height: 95vh;
+        
+    } 
+    .cards .column {
+        width: 25%;
+        position: absolute;
+        
+    }
+
+    .titlev2 h1{
+        font-size: 30px;
+    }
+ }
+
+
+
+
+
+
+
+
+ 
